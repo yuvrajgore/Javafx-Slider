@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myCanvas{
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+</style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="600" height="400" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<button type="button" onclick="myFunction()">Get coordinates of Canvas</button>
+
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.rect(0,0, 150, 100);
+ctx.stroke();
+alert(c.width+"-"+c.height);
+function myFunction() {    
+	alert(c.offsetTop);
+	
+		
+}
+</script>
+</body>
+</html>

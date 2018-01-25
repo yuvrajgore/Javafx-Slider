@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="rootPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="rootPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.testApp.SliderController">
+	<children>
+		<VBox id="vBox" fx:id="vBox" layoutX="0.0" styleClass="vBox">
+			<children>
+			<!-- First Menu -->			
+				<VBox id="firstSubVBox" fx:id="firstSubVBox" styleClass="vBox">
+					<children>
+						<Button fx:id="firstMenu" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="menu" text="First Menu" />
+						<VBox fx:id="firstSubMenuList" styleClass="subVBox">
+							<children>
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+							</children>
+						</VBox>
+					</children>
+				</VBox>
+				<!-- Second Menu -->
+					<VBox id="secondSubVBox" fx:id="secondSubVBox" styleClass="vBox">
+					<children>
+						<Button fx:id="secondMenu" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="menu" text="Second Menu" />
+						<VBox fx:id="secondSubMenuList" styleClass="subVBox">
+							<children>
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+							</children>
+						</VBox>
+					</children>
+				</VBox>
+				<!-- Third Menu -->
+					<VBox id="thirdSubVBox" fx:id="thirdSubVBox" styleClass="vBox">
+					<children>
+						<Button fx:id="thirdMenu" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="menu" text="Third Menu" />
+						<VBox fx:id="thirdSubMenuList" styleClass="subVBox">
+							<children>
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+							</children>
+						</VBox>
+					</children>
+				</VBox>
+				<!-- Fourth Menu -->
+					<VBox id="fourthSubVBox" fx:id="fourthSubVBox" styleClass="vBox">
+					<children>
+						<Button fx:id="fourthMenu" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="menu" text="Fourth Menu" />
+						<VBox fx:id="fourthSubMenuList" styleClass="subVBox">
+							<children>
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+							</children>
+						</VBox>
+					</children>
+				</VBox>
+				<!-- Fifth Menu -->
+					<VBox id="fifthSubVBox" fx:id="fifthSubVBox" styleClass="vBox">
+					<children>
+						<Button fx:id="fifthMenu" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="menu" text="Fifth Menu" />
+						<VBox fx:id="fifthSubMenuList" styleClass="subVBox">
+							<children>
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+								<Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="subMenu" text="Button" />
+							</children>
+						</VBox>
+					</children>
+				</VBox>
+			</children>
+		</VBox>
+	</children>
+</AnchorPane>
